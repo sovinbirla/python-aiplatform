@@ -58,3 +58,13 @@ def predict_custom_trained_model_sample(
 
 
 # [END aiplatform_predict_custom_trained_model_sample]
+
+predict_custom_trained_model_sample(
+    project="49287644183",
+    endpoint_id="mg-endpoint-0357fa09-c554-4fe2-be92-93d529731d8b",
+    location="us-central1",
+    instances={ "instance_key_1": "value", ...}
+)
+
+
+
